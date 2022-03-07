@@ -31,7 +31,8 @@ function addMarkers(locations, map) {
   for (const location of locations) {
     new google.maps.Marker({
       position: location.position,
-      map: map
+      map: map,
+      icon: "icons/" + location.type + "icon.png"
     })
   }
 }
