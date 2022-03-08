@@ -13,16 +13,60 @@ function initMap() {
 function getLocations() {
   return [
     {
-      position: new google.maps.LatLng(38.5389171, -121.7522203),
-      type: "trash"
+      position: new google.maps.LatLng(38.540766, -121.7555137),
+      type: "recycleandtrash"
     },
     {
-      position: new google.maps.LatLng(38.5389181, -121.7522253),
+      position: new google.maps.LatLng(38.5407988, -121.7574057),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5398169, -121.7554852),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5392791, -121.7551354),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5377813,-121.7559385),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5375716,-121.7550581),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5391493,-121.7534476),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5392029,-121.7533156),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5390308,-121.7529773),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.538888,-121.7524699),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5388421,-121.7525787),
+      type: "recycleandtrash"
+    },
+    {
+      position: new google.maps.LatLng(38.5392528, -121.7556151),
       type: "recycle"
     },
     {
-      position: new google.maps.LatLng(38.5389271, -121.7522103),
-      type: "compost"
+      position: new google.maps.LatLng(38.5382356, -121.7560587),
+      type: "allthree"
+    },
+    {
+      position: new google.maps.LatLng(38.5374385,-121.7537691),
+      type: "allthree"
     },
   ]
 }
