@@ -68,6 +68,14 @@ function getLocations() {
       position: new google.maps.LatLng(38.5374385,-121.7537691),
       type: "allthree"
     },
+    {
+      position: new google.maps.LatLng(38.538047, -121.753030),
+      type: "trash"
+    },
+    {
+      position: new google.maps.LatLng(38.538024, -121.752866),
+      type: "allthree"
+    }
   ]
 }
 
